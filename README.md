@@ -1,9 +1,10 @@
 # Prediction of customer value and its temporal validity in online gaming
-Worked on data preparation and developed a machine learning model to predict the customer value and its validity period from the given set of input features describing multiple aspects of a customer in online gaming
 
-Input: 22 dimensional feature vector containing numerical, categorical and binary features\
-Outputs: Customer value (Y1) and its temporal Interpolation (validity period) (Y2)\
+The input feature space contains 22 variables spanning across multiple aspects of customer behaviour.\
+Outputs: Customer value (Y1) and its temporal Extrapolation (validity period) (Y2).\
+
+Each customer can have N sequenced entries as input and only one set of (Y1, Y2) is expected as output. The value of N varies from customer to customer.
+
 Performance metrics: Mean of RMSE score of Y1 and RMSE score of Y2\
 Libraries used: Numpy, Pandas, Seaborn, Matplotlib, Scikit Learn.
 
-Obtained a public RMSE score of 68.17 on Kaggle.
