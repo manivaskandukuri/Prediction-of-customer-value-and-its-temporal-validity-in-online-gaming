@@ -1,4 +1,4 @@
-# Prediction of customer value and its temporal validity in online gaming
+# Prediction of customer value and its temporal validity for online gaming
 
 The input feature space contains 22 variables spanning across multiple aspects of customer behaviour.\
 Outputs: Customer value (Y1) and its temporal Extrapolation (temporal validity) (Y2).
